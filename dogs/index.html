@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" href="/760910.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dogs For Ever</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1 style="font-size: 40px;">Dogs For Ever</h1>
+        <nav>
+            <ul>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="video-container">
+        <video autoplay muted loop id="video-background">
+          <source src="/imgs/back ground clip.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+        </div>
+
+    <section class="products">
+        <h2>NEW ARRIVALS</h2>
+        <p>New Arrivals for Dogs:<br><br>
+            Discover the latest and greatest products for your furry friend!<br>
+            From stylish collars to cozy beds, we have everything your dog needs<br>
+            to stay happy and healthy.<br>
+            Explore our collection today and treat your pup to something special!</p>
+                    <button>SHOP NOW</button>     
+    </section>
+    <section class="partners">
+        <img src="/partners img/GHEDA.jpg" alt="gheda img">
+        <img src="/partners img/morando.jpg" alt="morandoimg">
+        <img src="/partners img/royal_canin.png" alt="royal_canin img">
+        <img src="/partners img/Hill's.webp" alt="hill's img">
+        <img src="/partners img/NUTRO-LOGO-GREEN-RGB-372x213.webp" alt="nutro img">
+         <img src="/partners img/logo-min.png.webp" alt="merrick img">
+        <img src="/partners img/newblueshield.webp" alt="newblueshield img">
+        <img src="/partners img/totw-logo-stacked.webp" alt="totw-stacked img">
+    </section>
+
+
+
+
+
+<section>
+<div x-data="{ cartOpen: false , isOpen: false }" class="bg-black mx-auto mt-19" >
+    <header>
+        <div x-data="{ cartOpen: false , isOpen: false }" class="bg-black mx-auto mt-19">
+            <header class="flex justify-center">
+                <div class="container mx-auto px-6 py-3">
+                    <div class="flex items-center justify-between">
+                        <div class="hidden w-full text-gray-600 md:flex md:items-center">
+                            <svg class="h-5 w-5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M16.2721 10.2721C16.2721 12.4813 14.4813 14.2721 12.2721 14.2721C10.063 14.2721 8.27214 12.4813 8.27214 10.2721C8.27214 8.06298 10.063 6.27212 12.2721 6.27212C14.4813 6.27212 16.2721 8.06298 16.2721 10.2721ZM14.2721 10.2721C14.2721 11.3767 13.3767 12.2721 12.2721 12.2721C11.1676 12.2721 10.2721 11.3767 10.2721 10.2721C10.2721 9.16755 11.1676 8.27212 12.2721 8.27212C13.3767 8.27212 14.2721 9.16755 14.2721 10.2721Z" fill="currentColor" /><path fill-rule="evenodd" clip-rule="evenodd" d="M5.79417 16.5183C2.19424 13.0909 2.05438 7.39409 5.48178 3.79417C8.90918 0.194243 14.6059 0.054383 18.2059 3.48178C21.8058 6.90918 21.9457 12.6059 18.5183 16.2059L12.3124 22.7241L5.79417 16.5183ZM17.0698 14.8268L12.243 19.8965L7.17324 15.0698C4.3733 12.404 4.26452 7.97318 6.93028 5.17324C9.59603 2.3733 14.0268 2.26452 16.8268 4.93028C19.6267 7.59603 19.7355 12.0268 17.0698 14.8268Z" fill="currentColor" />
+                            </svg>
+                            
+                 
+    <main class="my-8">
+        <div class="container mx-auto px-6">
+            <div class="h-64 rounded-md overflow-hidden bg-center bg-cover " style="background-image: url('/products-img/roberto-nickson-q9nZUFC1nTw-unsplash.jpg')">
+                <div class="bg-gray-900 bg-opacity-50 flex items-center h-full">
+                    <div class="px-10 max-w-xl">
+                        <h2 class="text-2xl text-bk font-semibold">Welcome </h2>
+                        <p class="mt-2 text-gray-400">to Dogs For Ever
+
+                            Discover a world of premium dog products curated to keep your furry friend happy, healthy, and entertained.
+                            
+                            From nutritious food to cozy beds and stylish accessories, we've got everything your canine companion needs.
+                            
+                            Join our pack today for tail-wagging adventures and endless paw-some moments!</p>
+                        <button class="flex items-center mt-4 px-3 py-2 bg-blue-600 text-white text-sm uppercase font-medium rounded hover:bg-blue-500 focus:outline-none focus:bg-blue-500">
+                            <span>Shop Now</span>
+                            <svg class="h-5 w-5 mx-2" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor"><path d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="md:flex mt-8 md:-mx-4">
+                <div class="w-full h-64 md:mx-4 rounded-md overflow-hidden bg-cover bg-cover md:w-1/2" style="background-image: url('/products-img/istockphoto-1069531070-612x612.jpg')">
+                    <div class="bg-gray-900 bg-opacity-50 flex items-center h-full">
+                        <div class="px-10 max-w-xl">
+                            <h2 class="text-2xl text-white font-semibold">labrador pupy</h2>
+                            <p class="mt-2 text-gray-400">Adorable 8-week-old male Labrador puppy available. Friendly, playful, and ready to join your family. Vaccinated and dewormed. Contact us today to meet your new best friend!</p>
+                            <button class="flex items-center mt-4 text-white text-sm uppercase font-medium rounded hover:underline focus:outline-none">
+                                <span>Shop Now</span>
+                                <svg class="h-5 w-5 mx-2" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor"><path d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full h-64 mt-8 md:mx-4 rounded-md overflow-hidden bg-cover bg-cover md:mt-0 md:w-1/2" style="background-image: url('/products-img/1707076536_1437_6235.jpg')">
+                    <div class="bg-gray-900 bg-opacity-50 flex items-center h-full">
+                        <div class="px-10 max-w-xl">
+                            <h2 class="text-2xl text-white font-semibold">Parents</h2>
+                            <p class="mt-2 text-gray-400">While our parent Labrador is not available for sale, he is a cherished member of our family and an exceptional companion. Known for his gentle nature and loyal disposition, he embodies the true essence of the Labrador breed. His offspring inherit his wonderful traits, ensuring they make loving and devoted companions for their new families.
+
+                                </p>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-16">
+                <h3 class="text-gray-600 text-2xl font-medium">Nutrition for Dogs</h3><br>
+                <p class="mt-2 text-gray-400"><i>In this section you may choose the most suitable product for your Dog.
+                    In UNICA range of products, you will find the most effective healthy solution, the ideal natural recipe or the adequate response according to your dog’s physiology.</i></p>
+                    <h2 class="text-2xl">royal_canin</h2>
+                <div class="grid gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 mt-6">
+                    <div class="w-full max-w-sm mx-auto rounded-md shadow-md overflow-hidden">
+                        <div class="flex items-end justify-end h-80 w-full bg-center" style="background-image: url('/royal-canin/1.png')">
+                            <button class="p-2 rounded-full bg-blue-600 text-white mx-5 -mb-4 hover:bg-blue-500 focus:outline-none focus:bg-blue-500">
+                                <svg class="h-5 w-5" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor"><path d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
+                            </button>
+                        </div>
+                        <div class="px-5 py-3">
+                            <h3 class="text-gray-700 uppercase">Royal Canin Mini Exigent 3kg</h3>
+                            <span class="text-gray-500 mt-2">price : 150,000 DT</span>
+                        </div>
+                    </div>
+                    <div class="w-full max-w-sm mx-auto rounded-md shadow-md overflow-hidden">
+                        <div class="flex items-end justify-end h-80 w-full bg-center" style="background-image: url('/royal-canin/2.png')">
+                            <button class="p-2 rounded-full bg-blue-600 text-white mx-5 -mb-4 hover:bg-blue-500 focus:outline-none focus:bg-blue-500">
+                                <svg class="h-5 w-5" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor"><path d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
+                            </button>
+                        </div>
+                        <div class="px-5 py-3">
+                            <h3 class="text-gray-700 uppercase">Royal Canin German Shepherd Puppy 12 kg</h3>
+                            <span class="text-gray-500 mt-2">price : à 365,000 dt</span>
+                        </div>
+                    </div>
+                    <div class="w-full max-w-sm mx-auto rounded-md shadow-md overflow-hidden">
+                        <div class="flex items-end justify-end h-80 w-full bg-cover" style="background-image: url('/royal-canin/3.png')">
+                            <button class="p-2 rounded-full bg-blue-600 text-white mx-5 -mb-4 hover:bg-blue-500 focus:outline-none focus:bg-blue-500">
+                                <svg class="h-5 w-5" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor"><path d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
+                            </button>
+                        </div>
+                        <div class="px-5 py-3">
+                            <h3 class="text-gray-700 uppercase">Royal Canin Mini Puppy 800gr et 2kg</h3>
+                            <span class="text-gray-500 mt-2">price : 800 gr à 40,000 dt and 2kg à 100,000 dt</span>
+                        </div>
+                    </div>
+                    <div class="w-full max-w-sm mx-auto rounded-md shadow-md overflow-hidden">
+                        <div class="flex items-end justify-end h-80 w-full bg-center" style="background-image: url('/royal-canin/4.png')">
+                            <button class="p-2 rounded-full bg-blue-600 text-white mx-5 -mb-4 hover:bg-blue-500 focus:outline-none focus:bg-blue-500">
+                                <svg class="h-5 w-5" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor"><path d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
+                            </button>
+                        </div>
+                        <div class="px-5 py-3">
+                            <h3 class="text-gray-700 uppercase">Royal Canin croquette Spitz Nain Adult 1.5 kg</h3>
+                            <span class="text-gray-500 mt-2">price :1.5kg à 90,000 DT</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-16">
+                <h3 class="text-gray-600 text-2xl font-medium">Dogs</h3>
+                <div class="grid gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 mt-6">
+                    <div class="w-full max-w-sm mx-auto rounded-md shadow-md overflow-hidden">
+                        <div class="flex items-end justify-end h-80 w-full bg-contain bg-center bg-no-repeat" style="background-image: url('/dogs_img/sh.jpg')">
+                            <button class="p-2 rounded-full bg-blue-600 text-white mx-5 -mb-4 hover:bg-blue-500 focus:outline-none focus:bg-blue-500">
+                                <svg class="h-5 w-5" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor"><path d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
+                            </button>
+                        </div>
+                        <div class="px-5 py-3">
+                            <h3 class="text-gray-700 uppercase">shitzu</h3>
+                            <span class="text-gray-500 mt-2">price  :1900DT</span>
+                        </div>
+                    </div>
+                    <div class="w-full max-w-sm mx-auto rounded-md shadow-md overflow-hidden">
+                        <div class="flex items-end justify-end h-80 w-full bg-center bg-no-repeat bg-cover" style="background-image: url('/dogs_img/br.jpg')">
+                            <button class="p-2 rounded-full bg-blue-600 text-white mx-5 -mb-4 hover:bg-blue-500 focus:outline-none focus:bg-blue-500">
+                                <svg class="h-5 w-5" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor"><path d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
+                            </button>
+                        </div>
+                        <div class="px-5 py-3">
+                            <h3 class="text-gray-700 uppercase">German Shepherd </h3>
+                            <span class="text-gray-500 mt-2">price:2800DT</span>
+                        </div>
+                    </div>
+                    <div class="w-full max-w-sm mx-auto rounded-md shadow-md overflow-hidden">
+                        <div class="flex items-end justify-end h-80 w-full bg-cover" style="background-image: url('/dogs_img/Dog-Jack_Russell_Terrier-Three_beautiful\,_little_Jack_Russell_Terriers_sitting_neatly_together.jpg')">
+                            <button class="p-2 rounded-full bg-blue-600 text-white mx-5 -mb-4 hover:bg-blue-500 focus:outline-none focus:bg-blue-500">
+                                <svg class="h-5 w-5" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor"><path d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
+                            </button>
+                        </div>
+                        <div class="px-5 py-3">
+                            <h3 class="text-gray-700 uppercase">jack russel</h3>
+                            <span class="text-gray-500 mt-2">price :1900DT</span>
+                        </div>
+                    </div>
+                    <div class="w-full max-w-sm mx-auto rounded-md shadow-md overflow-hidden">
+                        <div class="flex items-end justify-end h-80 w-full bg-center bg-no-repeat bg-cover " style="background-image: url('/dogs_img/spitz_nain_3.jpg')">
+                            <button class="p-2 rounded-full bg-blue-600 text-white mx-5 -mb-4 hover:bg-blue-500 focus:outline-none focus:bg-blue-500">
+                                <svg class="h-5 w-5" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor"><path d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
+                            </button>
+                        </div>
+                        <div class="px-5 py-3">
+                            <h3 class="text-gray-700 uppercase">spitz nain</h3>
+                            <span class="text-gray-500 mt-2">price :5000DT</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="mt-16">
+            <h3 class="text-gray-600 text-2xl font-medium">Accessory</h3>
+            <div class="grid gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 mt-6">
+                <div class="w-full max-w-sm mx-auto rounded-md shadow-md overflow-hidden">
+                    <div class="flex items-end justify-end h-56 w-full bg-center" style="background-image: url('/imgs/asc\ 1.png')">
+                        <button class="p-2 rounded-full bg-blue-600 text-white mx-5 -mb-4 hover:bg-blue-500 focus:outline-none focus:bg-blue-500">
+                            <svg class="h-5 w-5" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor"><path d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
+                        </button>
+                    </div>
+                    <div class="px-5 py-3">
+                        <h3 class="text-gray-700 uppercase">IDC Black Sport and Work Leash</h3>
+                        <span class="text-gray-500 mt-2">30:DT</span>
+                    </div>
+                </div>
+                <div class="w-full max-w-sm mx-auto rounded-md shadow-md overflow-hidden">
+                    <div class="flex items-end justify-end h-56 w-full bg-center bg-no-repeat bg-contain" style="background-image: url('/imgs/asc2.png')">
+                        <button class="p-2 rounded-full bg-blue-600 text-white mx-5 -mb-4 hover:bg-blue-500 focus:outline-none focus:bg-blue-500">
+                            <svg class="h-5 w-5" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor"><path d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
+                        </button>
+                    </div>
+                    <div class="px-5 py-3">
+                        <h3 class="text-gray-700 uppercase">Julius-K9 IDC-POWER Harness in Red</h3>
+                        <span class="text-gray-500 mt-2">180:DT</span>
+                    </div>
+                </div>
+                <div class="w-full max-w-sm mx-auto rounded-md shadow-md overflow-hidden">
+                    <div class="flex items-end justify-end h-56 w-full bg-center" style="background-image: url('/imgs/asc3.png')">
+                        <button class="p-2 rounded-full bg-blue-600 text-white mx-5 -mb-4 hover:bg-blue-500 focus:outline-none focus:bg-blue-500">
+                            <svg class="h-5 w-5" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor"><path d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
+                        </button>
+                    </div>
+                    <div class="px-5 py-3">
+                        <h3 class="text-gray-700 uppercase">Beeztees SYRA Gray Transport Bag 40x20x29h cm</h3>
+                        <span class="text-gray-500 mt-2">90:DT</span>
+                    </div>
+                </div>
+                <div class="w-full max-w-sm mx-auto rounded-md shadow-md overflow-hidden">
+                    <div class="flex items-end justify-end h-56 w-full bg-center" style="background-image: url('/imgs/kkkkk-07.png')">
+                        <button class="p-2 rounded-full bg-blue-600 text-white mx-5 -mb-4 hover:bg-blue-500 focus:outline-none focus:bg-blue-500">
+                            <svg class="h-5 w-5" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor"><path d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
+                        </button>
+                    </div>
+                    <div class="px-5 py-3">
+                        <h3 class="text-gray-700 uppercase">Flexi Comfort Retractable Cord Leash in Black</h3>
+                        <span class="text-gray-500 mt-2">220:DT</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+    </main>    
+</body>
+
+
+
+
+    <footer>
+        <div>
+            <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
+            <p>Contact us at <a href="mailto:info@example.com">Dogs For Ever@gmail.com</a></p>
+        </div>
+        <div>
+            <ul>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms of Service</a></li>
+            </ul>
+        </div>
+        <div>&copy; 2024 Dogs For Ever</div>
+    </footer>
+
+<
+
+</html>
